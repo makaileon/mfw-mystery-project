@@ -8,8 +8,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', cursive; 
 }
 .jumbotron {
-    background-image: url(../images/sky.jpg);
+    background-image: url(../images/amb2.jpg);
     background-size: cover;
-    height: 75vh;
+    height: 80vh;
     color: white;
+}
+
+.image {
+    background-image: url(../images/amb1.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+
+p {
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.image2 {
+    background-image: url(../images/hospital.jpg);
+    object-fit: scale-down;
 }
