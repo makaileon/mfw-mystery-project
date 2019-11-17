@@ -7,6 +7,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', cursive; 
 }
+
+i {
+    padding-top: 20px;
+}
+
+h2 {
+    padding-top: 14px;
+}
+
+i, h2 {
+    color: #327ab7;
+}
 .jumbotron {
     background-image: url(../images/amb2.jpg);
     background-size: cover;
@@ -20,12 +32,27 @@ h1, h2, h3, h4, h5, h6 {
     height: 60vh;
 }
 
-p {
-    padding-top: 100px;
+.lists {
+    padding: 60px;
+    font-size: large;
     font-weight: bold;
 }
 
-.image2 {
-    background-image: url(../images/hospital.jpg);
-    object-fit: scale-down;
+li {
+    padding: 20px;
+}
+
+p {
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.skeleton {
+    height: 400px;
+}
+
+.heart {
+    padding-top: 120px;
 }
