@@ -32,6 +32,7 @@ h2 {
     background-image: url(../images/amb1.jpg);
     background-size: cover;
     height: 60vh;
+    margin-top: 10px;
 }
 
 .lists {
@@ -55,11 +56,12 @@ p {
     height: 400px;
 }
 
-.heart {
+.doctors {
     padding-top: 120px;
+    height: 350px;
 }
 
-.heart, .skeleton, .image {
+.doctors, .skeleton, .image {
     border-radius: 5%;
 }
 
