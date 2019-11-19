@@ -2,10 +2,16 @@
 
 body {
     font-family: 'Public Sans', sans-serif;
+    padding-top: 60px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', cursive; 
+}
+ 
+i, h2 {
+    color: #327ab7;
+    margin-left: 160px;
 }
 
 i {
@@ -14,10 +20,6 @@ i {
 
 h2 {
     padding-top: 14px;
-}
-
-i, h2{
-    color: #327ab7;
 }
 .jumbotron {
     background-image: url(../images/amb2.jpg);
@@ -59,4 +61,16 @@ p {
 
 .heart, .skeleton, .image {
     border-radius: 5%;
+}
+
+.row {
+    padding: 10px;
+}
+
+nav {
+     background-color: white;
+}
+
+footer, .row {
+    border-top: solid 1px #327ab7;
 }
