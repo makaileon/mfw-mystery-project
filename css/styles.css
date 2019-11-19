@@ -16,7 +16,7 @@ h2 {
     padding-top: 14px;
 }
 
-i, h2 {
+i, h2{
     color: #327ab7;
 }
 .jumbotron {
@@ -55,4 +55,8 @@ p {
 
 .heart {
     padding-top: 120px;
+}
+
+.heart, .skeleton, .image {
+    border-radius: 5%;
 }
